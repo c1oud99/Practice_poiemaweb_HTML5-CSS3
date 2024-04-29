@@ -1,0 +1,14 @@
+// Box model
+width height max-width max-height min-width min-height
+padding margin
+border-color border-width border-spacing
+// Background
+background-color background-position
+// 좌표
+top left right bottom
+// 텍스트
+color font-size font-weight letter-spacing line-height
+text-indent text-shadow vertical-align word-spacing
+// 기타
+opacity outline-color outline-offset outline-width
+visibility z-index

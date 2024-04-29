@@ -1,0 +1,23 @@
+/* transition-duration 프로퍼티값은 transition-property 프로퍼티값과 1:1 대응한다. 아래의 경우, width 프로퍼티는 2초의 지속시간을 갖는다(2초에 걸쳐 변화한다). */
+div {
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+/*아래의 경우, width 프로퍼티는 2초, opacity 프로퍼티는 4초의 지속시간을 갖는다. */
+div {
+  transition-property: width, opacity;
+  transition-duration: 2s, 4s;
+}
+
+/* 또한 transition 프로퍼티만으로 축약 표현이 가능하다. */
+div {
+  /* shorthand syntax */
+  transition: width 2s, opacity 4s;
+}
+
+/* 아래의 경우, width 프로퍼티는 2초, opacity 프로퍼티는 1초, left 프로퍼티는 2초, top 프로퍼티는 1초의 지속시간을 갖는다. */
+div {
+  transition-property: width, opacity, left, top;
+  transition-duration: 2s, 1s;
+}
