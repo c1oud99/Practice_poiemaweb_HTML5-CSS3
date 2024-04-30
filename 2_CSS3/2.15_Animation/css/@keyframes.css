@@ -1,0 +1,14 @@
+@keyframes move {}
+
+@keyframes move {
+    /* 애니메이션 시작 시점 */
+    from { left: 0; }
+    /* 애니메이션 종료 시점 */
+    to   { left: 300px; }
+}
+
+@keyframes move {
+    0%   { left: 0; }
+    50%  { left: 100px; }
+    100% { left: 300px; }
+}
