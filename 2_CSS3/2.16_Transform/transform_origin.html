@@ -35,6 +35,25 @@
                 transform-origin: 100% 100%;
                 transform: scale(.5);
             }
+            .translate:hover {
+                transition: transform 1s linear;
+                /*transform-origin : 100% 100%*/
+                transform: translate(10px, 10px);
+            }
         </style>
     </head>
+    <body>
+        <div class="original box">
+            <div class="child box scale1">scale1</div>
+        </div>
+        <div class="original box">
+            <div class="child box scale2">scale2</div>
+        </div>
+        <div class="original box">
+            <div class="child box scale3">scale3</div>
+        </div>
+        <div class="original box">
+            <div class="child box translate">translate</div>
+        </div>
+    </body>
 </html>
