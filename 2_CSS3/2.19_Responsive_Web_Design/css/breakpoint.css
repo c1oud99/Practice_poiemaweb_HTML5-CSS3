@@ -1,0 +1,45 @@
+/*==========  Mobile First Method  ==========*/
+/* All Device */
+
+/* Custom, iPhone Retina : 320px ~ */
+@media only screen and (min-width : px) {
+
+}
+
+/* Extra Small Devices, Phones : 480px ~ */
+@media only screen and (min-width : px) {
+
+}
+
+/* Small Devices, Tablets : 768px ~ */
+@media only screen and (min-width : px) {
+
+}
+
+/* Medium Devices, Desktops : 992px ~ */
+@media only screen and (min-width : px) {
+
+}
+
+/* Large Devices, Wide Screens : 1200px ~ */
+@media only screen and (min-width : px) {
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+/* All Device */
+
+/* Large Devices, Wide Screens : ~ 1200px */
+@media only screen and (max-width : px) {
+
+}
+
+/* Medium Devices, Desktops : ~ 992px */
+
+/* Small Devices, Tablets : ~ 768px */
+
+/* Extra Small Devices, Phones : ~ 480px */
+
+/* Custom, iPhone Retina : ~ 320px */
+
