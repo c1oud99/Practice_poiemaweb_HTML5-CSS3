@@ -1,0 +1,12 @@
+aside {
+    /* for fixed side bar */
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    width: 200px;
+}
+
+section {
+    float: right;
+    margin-left: 200px;
+}

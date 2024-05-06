@@ -1,0 +1,16 @@
+/* clearfix */
+#content-wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+section {
+    float: right;
+    width: 80%;
+}
