@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Nanum Gothic";
+    src: url("NanumGothic.eot");    /* IE 9 호환성 보기 모드 대응 */
+    src: local("☺"),                /* local font 사용 방지. 생략 가능 */
+         url("NanumGothic.eot?#iefix") format('embedded-opentype'), /* IE 6~8 */
+         url("NanumGothic.woff") format('woff'); /* 표준 브라우저 */
+}
+
+* { font-family: "Nanum Gothic", sans-serif;}
