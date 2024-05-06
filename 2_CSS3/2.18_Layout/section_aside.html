@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Simple Reset CSS */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                color: #58666e;
+                background-color: #f0f3f4;
+            }
+            li {
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+            }
+            nav {
+                float: right;
+            }
+            .logo {
+                display: inline-block;
+                height: 36px;
+                margin: 12px 0 12px 25px;
+            }
+            .log > img { height: 36px; }
+            .nav-items > li {
+                display: inline-block;
+            } 
+            .nav-items > li > a {
+                line-height: 60px;
+                padding: 0 30px;
+                color: rgba(0,0,0,0.4);
+            }
+            .nav-items > li > a:hover {
+                color: rgba(0,0,0,0.8);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                <a href="#home" class="logo">
+                    <img src="https://poiemaweb.com/img/logo.png">
+                </a>
+                <nav>
+                    <ul class="nav-items">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="about">about</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="content-wrap">
+                <aside>
+                    <h1>Aside</h1>
+                    <ul>
+                        <li><a href="#" class="active">London</a></li>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Tokyo</a></li>
+                        <li><a href="#">Newyork</a></li>
+                    </ul>
+                </aside>
+                <section>
+                    <article id="london">
+                        <h1>London</h1>
+                        <p>...</p>
+                    </article>
+                    <active id="paris">
+                        <h1>Paris</h1>
+                        <p>...</p>
+                    </active>
+                    <active id="tokyo">
+                        <h1>Tokyo</h1>
+                        <p>...</p>
+                    </active>
+                    <active id="newyork">
+                        <h1>Newyork</h1>
+                        <p>...</p>
+                    </active>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
