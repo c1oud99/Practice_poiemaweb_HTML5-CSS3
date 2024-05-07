@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+    header {
+        height: 120px;
+        text-align: center;
+    }
+    nav {
+        float: none;
+        /*margin-right: 0;*/
+    }
+    #wrap {
+        /* margin-top = header height */
+        margin-top: 120px;
+    }
+    aside {
+        top: 120px;
+    }
+}

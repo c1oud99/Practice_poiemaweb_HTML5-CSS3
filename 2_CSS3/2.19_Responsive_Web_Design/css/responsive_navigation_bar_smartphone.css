@@ -1,0 +1,43 @@
+.navicon {
+    cursor: pointer;
+    height: 60px;
+    padding: 28px 15px;
+    position: absolute;
+    top: 0; right: 0;
+}
+
+.navicon-bar {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 3px;
+    background-color: #333;
+}
+
+.navicon-bar::before,
+.navicon-bar::after {
+    background-color: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.navicon-bar::before {
+    top: -7px;
+}
+.navicon-bar::after {
+    top: 7px;
+}
+
+.nav-toggle:checked ~ .navicon > .navicon-bar {
+    background: transparent;
+}
+.nav-toggle:checked ~ .navicon > .navicon-bar::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+.nav-toggle:checked ~ .navicon > .navicon-bar::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
