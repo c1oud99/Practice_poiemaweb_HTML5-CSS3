@@ -1,0 +1,19 @@
+.flex-container {
+    align-items: stretch;
+}
+
+.flex-container {
+    align-items: flex-start;
+}
+
+.flex-container {
+    align-items: flex-end;
+}
+
+.flex-container {
+    align-items: center;
+}
+
+.flex-container {
+    align-items: baseline;
+}

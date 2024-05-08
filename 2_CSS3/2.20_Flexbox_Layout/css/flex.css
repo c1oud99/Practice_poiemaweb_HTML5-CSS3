@@ -1,0 +1,3 @@
+.flex-item {
+    flex: none | auto | [ <flex-grow> <flex-shrink>? || <flex-basis> ];
+}
