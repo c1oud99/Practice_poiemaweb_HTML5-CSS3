@@ -1,0 +1,9 @@
+.parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    /* 요소의 높이의 반(50%) 만큼 위로 이동 */
+    transform: translateY(-50%);
+}

@@ -1,0 +1,10 @@
+.parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*요소의 높이/너비의 반(50%)만큼 위/왼쪽으로 이동*/
+    transform: translate(-50%, -50%);
+}

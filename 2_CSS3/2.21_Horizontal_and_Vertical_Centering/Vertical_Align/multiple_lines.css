@@ -1,0 +1,8 @@
+.parent {
+    display: table;
+    height: 100px;
+}
+.child {
+    display: table-cell;
+    vertical-align: middle;
+}

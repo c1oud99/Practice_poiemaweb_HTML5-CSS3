@@ -1,0 +1,10 @@
+.parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    /* 요소의 높이(100px)의 반 만큼 위로 이동 */
+    margin-top: -50px;
+}

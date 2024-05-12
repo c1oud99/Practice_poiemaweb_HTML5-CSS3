@@ -22,6 +22,42 @@
         </style>
     </head>
     <body>
+        <p>
+            주어진 조건에 따라 각각의 휨실험체에 대한 파단 모멘트 및 휨응력을 계산해보겠습니다.
+
+            주어진 파단 휨응력 및 모멘트를 구하기 위해 다음 단계를 따릅니다:
+
+            1. 파단 모멘트 \( M_{\text{fr}} = \frac{P_{\text{fr}} \times L}{4} \)
+            2. 단면 계수 \( Z = \frac{b \times h^2}{6} \)
+            3. 휨 응력 \( \sigma_{\text{fr}} = \frac{M_{\text{fr}}}{Z} \)
+            4. 허용 응력 \( \sigma_{\text{allow}} = \frac{\sigma_{\text{fr}}}{S} \) (여기서 \( S \)는 안전률)
+
+            각 실험체에 대해 위의 과정을 수행하여 파단 모멘트와 휨 응력을 구하겠습니다.
+
+            1. 실험체 1 ( \( b = 40 \, \text{mm} \) )
+            - 파단 모멘트 \( M_{\text{fr}} = \frac{102.7 \times 300}{4} = 771.75 \, \text{N} \cdot \text{mm} \)
+            - 단면 계수 \( Z = \frac{40 \times 50^2}{6} = 41,666.67 \, \text{mm}^3 \)
+            - 휨 응력 \( \sigma_{\text{fr}} = \frac{771.75}{41,666.67} = 0.0185 \, \text{N/mm}^2 \)
+            - 허용 응력 \( \sigma_{\text{allow}} = \frac{0.0185}{1.5} = 0.0123 \, \text{N/mm}^2 \)
+
+            2. 실험체 2 ( \( b = 50 \, \text{mm} \) )
+            - 파단 모멘트 \( M_{\text{fr}} = \frac{108.192 \times 300}{4} = 811.44 \, \text{N} \cdot \text{mm} \)
+            - 단면 계수 \( Z = \frac{50 \times 50^2}{6} = 52,083.33 \, \text{mm}^3 \)
+            - 휨 응력 \( \sigma_{\text{fr}} = \frac{811.44}{52,083.33} = 0.0156 \, \text{N/mm}^2 \)
+            - 허용 응력 \( \sigma_{\text{allow}} = \frac{0.0156}{1.5} = 0.0104 \, \text{N/mm}^2 \)
+
+            3. 실험체 3 ( \( b = 60 \, \text{mm} \) )
+            - 파단 모멘트 \( M_{\text{fr}} = \frac{119.168 \times 300}{4} = 893.76 \, \text{N} \cdot \text{mm} \)
+            - 단면 계수 \( Z = \frac{60 \times 50^2}{6} = 62,500 \, \text{mm}^3 \)
+            - 휨 응력 \( \sigma_{\text{fr}} = \frac{893.76}{62,500} = 0.0143 \, \text{N/mm}^2 \)
+            - 허용 응력 \( \sigma_{\text{allow}} = \frac{0.0143}{1.5} = 0.0095 \, \text{N/mm}^2 \)
+
+            따라서, 각 실험체에 대한 파단 모멘트와 휨 응력은 다음과 같습니다:
+
+            - 실험체 1: \( M_{\text{fr}} = 771.75 \, \text{N} \cdot \text{mm} \), \( \sigma_{\text{fr}} = 0.0185 \, \text{N/mm}^2 \)
+            - 실험체 2: \( M_{\text{fr}} = 811.44 \, \text{N} \cdot \text{mm} \), \( \sigma_{\text{fr}} = 0.0156 \, \text{N/mm}^2 \)
+            - 실험체 3: \( M_{\text{fr}} = 893.76 \, \text{N} \cdot \text{mm} \), \( \sigma_{\text{fr}} = 0.0143 \, \text{N/mm}^2 \)
+        </p>
         <div class="flex-container">
             <div class="flex-item">1</div>
             <div class="flex-item">2</div>
