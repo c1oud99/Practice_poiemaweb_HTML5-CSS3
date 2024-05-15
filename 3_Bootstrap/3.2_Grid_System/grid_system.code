@@ -1,0 +1,11 @@
+.container or .container-fluid
+    .row
+        .col-xs-#
+            contents
+        .col-xs-#
+            contents
+    .row
+        .col-xs-#
+            contents
+        .col-xs-#
+            contents
