@@ -1,0 +1,15 @@
+/* Extra small devices (phones, less than 768px) */
+/* Rule set for col-sm-* class */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Rule set for col-sm-* class */
+  }
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* Rule set for col-md-* class */
+  }
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Rule set for col-lg-* class */
+  }
